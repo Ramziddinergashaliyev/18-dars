@@ -1,0 +1,61 @@
+@media (max-width:550px) {
+  .section__card,
+  .section__cards {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .section__card__img {
+    margin: 0 auto;
+  }
+  input {
+    width: 300px;
+  }
+  .name {
+    flex-direction: column;
+  }
+  .continue__btn {
+    width: 200px;
+  }
+  .welcome__title {
+    font-size: 20px;
+  }
+  .country__input {
+    flex-direction: column;
+  } 
+  .header__nav__contact-btn {
+    display: none;
+  }
+}
+@media (max-width:440px) {
+
+  .section__card,
+  .section__cards {
+    width: 270px;
+    margin: 0 auto;
+  }
+
+  .section__card__img {
+    margin: 0 auto;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  .name {
+    flex-direction: column;
+  }
+
+  .continue__btn {
+    width: 200px;
+  }
+
+  .welcome__title {
+    font-size: 20px;
+  }
+
+  .country__input {
+    flex-direction: column;
+  }
+}

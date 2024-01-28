@@ -1,0 +1,73 @@
+main {
+  padding-top: 200px;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.section__cards {
+  width: 496px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: #FFF;
+  margin-bottom: 40px;
+  box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04), 0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+}
+.section__card__img {
+  margin-left: 150px;
+}
+.welcome__title {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "Segoe UI";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.login__text {
+  color: #444150;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.login__link {
+  color: var(--01-bab-3, #01BAB3);
+}
+
+input {
+  display: block;
+  height: 48px;
+  width: 420px;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 20px;
+}
+
+.continue__btn {
+  width: 420px;
+  height: 48px;
+  flex-shrink: 0;
+  color: var(--ffffff, #FFF);
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 40px 0px;
+  border-radius: 4px;
+  background: var(--01-bab-3, #01BAB3);
+  border: none;
+}
+
+.section__card__text {
+  color: #01BAB3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
